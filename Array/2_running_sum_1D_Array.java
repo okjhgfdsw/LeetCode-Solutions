@@ -15,7 +15,7 @@ class Solution {
         for(int i=0;i<=nums.length-1;i++){
             sum=sum+nums[i];
             nums[i]=sum;
-        }return nums;
+        }return nums; //here you have confusion of return type like nums [] wrong but nums is correct
 
     }
 }
